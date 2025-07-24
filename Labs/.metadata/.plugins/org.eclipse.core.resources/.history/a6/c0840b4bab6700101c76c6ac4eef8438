@@ -1,0 +1,21 @@
+package com.labs.two.Four;
+
+public class PersonMain {
+ public static void main(String[] args) {
+ 
+     Person person = new Person("T ", "Lakshmi", 'F');
+
+     
+     System.out.println("Person Details:\n");
+     System.out.println("First Name: " + person.getFirstName());
+     System.out.println("Last Name: " + person.getLastName());
+     System.out.println("Gender: " + person.getGender());
+ }
+}
+/*
+Person Details:
+
+First Name: T 
+Last Name: Lakshmi
+Gender: F
+*/

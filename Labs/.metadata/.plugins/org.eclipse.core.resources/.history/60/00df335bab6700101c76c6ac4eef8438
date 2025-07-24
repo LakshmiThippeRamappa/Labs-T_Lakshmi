@@ -1,0 +1,19 @@
+package com.labs.two.Four;
+//PersonMain.java
+
+public class PersonMain {
+ public static void main(String[] args) {
+     
+     Person person = new Person("T", "Lakshmi", 'F', "");
+
+     // Set phone number using method
+     person.setPhoneNumber("9876543210");
+
+     // Display all details using method
+     person.displayDetails();
+ }
+}
+
+/*
+
+*/
